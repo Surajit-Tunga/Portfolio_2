@@ -35,7 +35,7 @@ const Journey = () => {
       key={i}
       src={img}
       alt={`event-${index}-img-${i}`}
-      className="h-36 sm:h-44 w-auto rounded-xl shadow-md object-cover flex-shrink-0 border-2 border-blue-700/30 transition-transform duration-300 hover:scale-105 hover:shadow-blue-400/40"
+      className="h-36 sm:h-44 w-auto my-2 rounded-xl shadow-md object-cover flex-shrink-0 border-2 border-blue-700/30 transition-transform duration-300 hover:scale-105"
     />
   ))}
 </div>

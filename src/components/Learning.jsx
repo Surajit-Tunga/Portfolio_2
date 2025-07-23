@@ -55,9 +55,7 @@ const Learning = () => {
             rel="noopener noreferrer"
             className={`card group min-w-[240px] max-w-[20px] w-full 
               bg-zinc-900 rounded-lg overflow-hidden
-              shadow-[3px_3px_6px_rgba(96,165,250,0.2)]
-              hover:shadow-[3px_3px_10px_rgba(96,165,250,0.4)]
-              transition-transform duration-300 hover:scale-105
+              shadow-[3px_3px_6px_rgba(96,165,250,0.2)] hover:shadow-[3px_3px_10px_rgba(96,165,250,0.4)] transition-transform duration-300 hover:scale-105
               flex flex-col h-64`}
           >
             <div className="h-1/2 w-full">
