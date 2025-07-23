@@ -4,7 +4,7 @@ import pp from '../assets/pp.jpg';
 
 const Header = () => {
   return (
-    <div className="fixed inset-0 overflow-hidden bg-black text-white">
+    <div className="relative inset-0 overflow-hidden bg-black text-white">
       {/* Dot Background */}
       <div className="absolute inset-0 z-0">
         <DotGrid
