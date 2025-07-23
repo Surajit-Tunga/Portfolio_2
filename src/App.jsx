@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Journey from "./components/Journey";
 import Learning from "./components/Learning";
@@ -12,7 +13,7 @@ export default function App() {
       <Learning/>
       <MyProjects/>
       <Journey/>
-      
+      <Footer/>
     </div>
   )
 }

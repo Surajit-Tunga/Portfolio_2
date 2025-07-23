@@ -164,7 +164,7 @@ export const journeyData = [
     organizedBy: "RCC Institute of Information Technology",
     position: "Finalist",
     role: "Team Lead & Full Stack Developer",
-    description: "Made an image processing project for phone detection in restricted zones",
+    description: "Made an image processing project for phone detection in restricted zones.",
     images: [SBH1, SBH2, SBH3, SBH4],
   },
   {
@@ -173,7 +173,7 @@ export const journeyData = [
     organizedBy: "Forum of Scientists, Engineers and Technologists (FOSET)",
     position: "Paper Presenter",
     role: "Team Lead",
-    description: "Presented a paper on '5g-Enabled IoT'",
+    description: "Presented a paper on '5g-Enabled IoT'.",
     images: [FOSET1, FOSET2],
   },
   {
@@ -182,7 +182,7 @@ export const journeyData = [
     organizedBy: "Asansole Engineering College",
     position: "Winner (10th Place)",
     role: "Team Lead & Model Maker",
-    description: "Developed a speaking system for mute people using hand gestures",
+    description: "Developed a speaking system for mute people using hand gestures.",
     images: [IHMMC1, IHMMC2, IHMMC3],
   },
 ];

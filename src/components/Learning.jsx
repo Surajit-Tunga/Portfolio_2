@@ -71,7 +71,7 @@ const Learning = () => {
               <h3 className="text-lg font-semibold leading-snug">
                 {course.title}
               </h3>
-              <p className="text-sm mt-2 font-medium text-blue-400">
+              <p className="text-sm mt-2 font-medium text-blue-600">
                 {course.channel}
               </p>
             </div>
