@@ -13,3 +13,78 @@ export const techStack = [
   { name: "GitHub", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
   { name: "Vercel", logo: "https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png" },
 ];
+
+export const learningPath = [
+  {
+    title: "React Basics",
+    channel: "freeCodeCamp",
+    link: "https://www.youtube.com/watch?v=bMknfKXIFA8",
+    image: "https://img.youtube.com/vi/bMknfKXIFA8/0.jpg",
+  },
+  {
+    title: "Tailwind CSS",
+    channel: "Traversy Media",
+    link: "https://www.youtube.com/watch?v=dFgzHOX84xQ",
+    image: "https://img.youtube.com/vi/dFgzHOX84xQ/0.jpg",
+  },
+  {
+    title: "Node.js Crash Course",
+    channel: "Traversy Media",
+    link: "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+    image: "https://img.youtube.com/vi/fBNz5xF-Kx4/0.jpg",
+  },
+  {
+    title: "React Basics",
+    channel: "freeCodeCamp",
+    link: "https://www.youtube.com/watch?v=bMknfKXIFA8",
+    image: "https://img.youtube.com/vi/bMknfKXIFA8/0.jpg",
+  },
+  {
+    title: "Tailwind CSS",
+    channel: "Traversy Media",
+    link: "https://www.youtube.com/watch?v=dFgzHOX84xQ",
+    image: "https://img.youtube.com/vi/dFgzHOX84xQ/0.jpg",
+  },
+  {
+    title: "Node.js Crash Course",
+    channel: "Traversy Media",
+    link: "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+    image: "https://img.youtube.com/vi/fBNz5xF-Kx4/0.jpg",
+  },
+  {
+    title: "React Basics",
+    channel: "freeCodeCamp",
+    link: "https://www.youtube.com/watch?v=bMknfKXIFA8",
+    image: "https://img.youtube.com/vi/bMknfKXIFA8/0.jpg",
+  },
+  {
+    title: "Tailwind CSS",
+    channel: "Traversy Media",
+    link: "https://www.youtube.com/watch?v=dFgzHOX84xQ",
+    image: "https://img.youtube.com/vi/dFgzHOX84xQ/0.jpg",
+  },
+  {
+    title: "Node.js Crash Course",
+    channel: "Traversy Media",
+    link: "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+    image: "https://img.youtube.com/vi/fBNz5xF-Kx4/0.jpg",
+  },
+  {
+    title: "React Basics",
+    channel: "freeCodeCamp",
+    link: "https://www.youtube.com/watch?v=bMknfKXIFA8",
+    image: "https://img.youtube.com/vi/bMknfKXIFA8/0.jpg",
+  },
+  {
+    title: "Tailwind CSS",
+    channel: "Traversy Media",
+    link: "https://www.youtube.com/watch?v=dFgzHOX84xQ",
+    image: "https://img.youtube.com/vi/dFgzHOX84xQ/0.jpg",
+  },
+  {
+    title: "Node.js Crash Course",
+    channel: "Traversy Media",
+    link: "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+    image: "https://img.youtube.com/vi/fBNz5xF-Kx4/0.jpg",
+  },
+];
