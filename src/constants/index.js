@@ -4,6 +4,7 @@ export const techStack = [
   { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
   { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+  { name: "Tailwind CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
   { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "Django", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
   { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
@@ -107,5 +108,41 @@ export const learningPath = [
     image: "https://img.youtube.com/vi/F0GQ0l2NfHA/0.jpg",
   },
 ];
+
+export const projects = [
+  {
+    name: "Airbnb Backend",
+    description: "A complete backend for an Airbnb clone with user authentication, property management, and booking features.",
+    link: "https://github.com/Surajit-Tunga/Complete_Backend/tree/main/airbnb",
+    techStack: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      // "https://upload.wikimedia.org/wikipedia/commons/2/27/Ejs_logo.png", // EJS
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" // TailwindCSS
+    ]
+  },
+  {
+    name: "Fest.io",
+    description: "A festival management platform with event scheduling, ticketing, and user management.",
+    link: "https://fest-io.vercel.app/",
+    techStack: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    ]
+  },
+  {
+    name: "Tic tac toe",
+    description: "A simple tic-tac-toe game built with JS.",
+    link: "https://surajit-tunga.github.io/Tic-Tac-toe/",
+    techStack: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    ]
+  }
+];
+
 
 

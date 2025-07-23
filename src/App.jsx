@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Learning from "./components/Learning";
+import MyProjects from "./components/MyProjects";
 import Tech from "./components/Tech";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
       <Header />
       <Tech />
       <Learning/>
+      <MyProjects/>
       
     </div>
   )
