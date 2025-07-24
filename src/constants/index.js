@@ -184,6 +184,6 @@ export const journeyData = [
     role: "Team Lead & Full Stack Developer",
     description: "Made an image processing project for phone detection in restricted zones.",
     images: [SBH1, SBH2, SBH3, SBH4],
-  },
+  },  
   
 ];
