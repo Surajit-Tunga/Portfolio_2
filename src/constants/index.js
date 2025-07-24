@@ -159,24 +159,6 @@ import IHMMC3 from "../assets/IHMMC3.jpg";
 
 export const journeyData = [
   {
-    eventName: "Smart Bengal Hackathon 2025",
-    date: "April 2025",
-    organizedBy: "RCC Institute of Information Technology",
-    position: "Finalist",
-    role: "Team Lead & Full Stack Developer",
-    description: "Made an image processing project for phone detection in restricted zones.",
-    images: [SBH1, SBH2, SBH3, SBH4],
-  },
-  {
-    eventName: "Technical Paper Presentation",
-    date: "April 2025",
-    organizedBy: "Forum of Scientists, Engineers and Technologists (FOSET)",
-    position: "Paper Presenter",
-    role: "Team Lead",
-    description: "Presented a paper on '5g-Enabled IoT'.",
-    images: [FOSET1, FOSET2],
-  },
-  {
     eventName: "International Hardware Model Making Competition",
     date: "March 2025",
     organizedBy: "Asansol Engineering College",
@@ -185,4 +167,23 @@ export const journeyData = [
     description: "Developed a speaking system for mute people using hand gestures.",
     images: [IHMMC1, IHMMC2, IHMMC3],
   },
+    {
+    eventName: "Technical Paper Presentation",
+    date: "April 2025",
+    organizedBy: "Forum of Scientists, Engineers and Technologists (FOSET)",
+    position: "Paper Presenter",
+    role: "Team Lead",
+    description: "Presented a paper on '5g-Enabled IoT'.",
+    images: [FOSET1, FOSET2],
+  },
+   {
+    eventName: "Smart Bengal Hackathon 2025",
+    date: "April 2025",
+    organizedBy: "RCC Institute of Information Technology",
+    position: "Finalist",
+    role: "Team Lead & Full Stack Developer",
+    description: "Made an image processing project for phone detection in restricted zones.",
+    images: [SBH1, SBH2, SBH3, SBH4],
+  },
+  
 ];
