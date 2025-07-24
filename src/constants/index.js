@@ -159,7 +159,7 @@ import IHMMC3 from "../assets/IHMMC3.jpg";
 
 export const journeyData = [
   {
-    eventName: "International Hardware Model Making Competition",
+    eventName: "IHMMC 2025",
     date: "March 2025",
     organizedBy: "Asansol Engineering College",
     position: "Winner (10th Place)",
