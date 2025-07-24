@@ -3,7 +3,7 @@ import { journeyData } from "../constants/index";
 
 const Journey = () => {
   return (
-    <section className="w-full py-12 px-4 sm:px-10">
+    <section className="w-full pt-16 px-4 sm:px-10">
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10 text-white">
         <span className="bg-blue-600 text-white  px-1.5 py-1 rounded-lg inline-block">
           Journey

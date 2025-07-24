@@ -3,7 +3,7 @@ import { techStack } from "../constants/index";
 
 const Tech = () => {
   return (
-    <div className="w-full py-12 bg-black text-white">
+    <div className="w-full pt-12 bg-black text-white">
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10 text-white">
         <span className="bg-blue-600 text-white px-1.5 py-1 rounded-lg inline-block">
           Technologies

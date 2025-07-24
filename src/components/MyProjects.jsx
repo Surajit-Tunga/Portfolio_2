@@ -3,7 +3,7 @@ import { projects } from "../constants/index";
 
 const MyProjects = () => {
   return (
-    <div className="bg-black py-8 px-4 text-white">
+    <div className="bg-black pt-11 px-4 text-white">
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10">
         My{" "}
         <span className="bg-blue-600 text-white px-1.5 py-1 rounded-lg">

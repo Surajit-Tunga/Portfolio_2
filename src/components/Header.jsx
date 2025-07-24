@@ -45,13 +45,13 @@ const Header = () => {
             <p className="text-lg text-white">
               Passionate about building innovative web applications and exploring the frontiers of machine learning and generative AI. </p>
             <a
-              href="https://www.linkedin.com/in/surajittunga"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-2 px-7 py-3 text-white font-semibold rounded-xl bg-blue-600 backdrop-blur-md bg-opacity-70 hover:bg-blue-700 hover:shadow-[0_0_20px_3px_rgba(59,130,246,0.6)] transition duration-300"
-            >
-              Let’s Connect →
-            </a>
+             href="https://www.linkedin.com/in/surajittunga"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="inline-block mt-2 px-7 py-3 text-white font-semibold rounded-xl bg-blue-700 backdrop-blur-md bg-opacity-70 shadow-[0_0_20px_3px_rgba(59,130,246,0.6)] transition duration-300"
+             >
+               Let’s Connect →
+             </a>
           </div>
         </div>
       </div>

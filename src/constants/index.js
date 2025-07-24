@@ -159,7 +159,7 @@ import IHMMC3 from "../assets/IHMMC3.jpg";
 
 export const journeyData = [
   {
-    eventName: "Smart Bengal Hackathon 2023",
+    eventName: "Smart Bengal Hackathon 2025",
     date: "April 2025",
     organizedBy: "RCC Institute of Information Technology",
     position: "Finalist",
@@ -169,7 +169,7 @@ export const journeyData = [
   },
   {
     eventName: "Technical Paper Presentation",
-    date: "April 2054",
+    date: "April 2025",
     organizedBy: "Forum of Scientists, Engineers and Technologists (FOSET)",
     position: "Paper Presenter",
     role: "Team Lead",
@@ -179,7 +179,7 @@ export const journeyData = [
   {
     eventName: "International Hardware Model Making Competition",
     date: "March 2025",
-    organizedBy: "Asansole Engineering College",
+    organizedBy: "Asansol Engineering College",
     position: "Winner (10th Place)",
     role: "Team Lead & Model Maker",
     description: "Developed a speaking system for mute people using hand gestures.",
