@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { journeyData } from "../constants/index";
 import AOS from "aos";
+
 import "aos/dist/aos.css";
 
 const Journey = () => {
@@ -9,7 +10,7 @@ const Journey = () => {
   }, []);
 
   return (
-    <section className="w-full py-20 px-4 sm:px-10 text-white relative">
+    <section className="w-full pt-16 px-4 sm:px-10 text-white relative">
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10 text-white">
         <span className="bg-blue-600 text-white px-1.5 py-1 rounded-lg inline-block">
           Journey
@@ -27,8 +28,8 @@ const Journey = () => {
             {/* Left Column */}
             <div className="lg:w-[320px] flex flex-col items-start pl-2 lg:pl-0 h-full">
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-5 h-5 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 border-4 border-black shadow-md mt-1"></div>
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-blue-400">
+                <div className="w-5 h-5 rounded-full bg-gradient-to-br from-blue-500 to-purple-700 border-4 border-black shadow-md mt-1"></div>
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-blue-600">
                   {event.eventName}
                 </h3>
               </div>
@@ -55,7 +56,7 @@ const Journey = () => {
               {/* Image Gallery */}
               {event.images.length > 0 && (
                 <div className="mt-4">
-                  <p className="text-xs sm:text-sm text-gray-500 mb-2">Scroll to explore →</p>
+                  <p className="text-xs sm:text-sm text-gray-500 mb-2">Here are some glimpses →</p>
                   <div className="flex gap-3 overflow-x-auto scrollbar-hide pb-2">
                     {event.images.map((img, i) => (
                       <img
@@ -72,12 +73,7 @@ const Journey = () => {
           </div>
         ))}
       </div>
-      <div className="mt-12 text-center text-lg lg:text-xl font-semibold text-white/80 italic tracking-wide">
-       ✨ The journey continues...
-     </div>
-
-
-      <style jsx>{`
+           <style jsx>{`
         .scrollbar-hide {
           -ms-overflow-style: none;
           scrollbar-width: none;

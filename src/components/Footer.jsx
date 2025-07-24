@@ -2,53 +2,58 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
-  return (
-    <footer className="w-full bg-gradient-to-br from-[#0e0e10] via-[#1a1a1d] to-[#0e0e10] relative py-10 px-6 mt-20 border-t border-zinc-800 shadow-[0_-2px_40px_0_rgba(59,130,246,0.12)] overflow-hidden">
-      {/* Optional glow effect */}
-      <div className="absolute inset-0 bg-gradient-radial from-blue-900/20 via-transparent to-transparent opacity-20 pointer-events-none" />
+  const currentYear = new Date().getFullYear();
 
-      <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
+  return (
+    <div className="w-full flex justify-center mb-2 mt-20 px-4">
+      <div className="relative w-full max-w-xl lg:max-w-4xl rounded-xl border border-blue-500/30 bg-white/5 backdrop-blur-sm shadow-[0_0_40px_rgba(59,130,246,0.2)] overflow-hidden py-6 px-6 flex flex-col lg:flex-row items-center justify-between gap-4 text-center lg:text-left">
+        {/* Background radial glow */}
+        <div className="absolute inset-0 bg-gradient-radial from-blue-500/10 via-transparent to-transparent opacity-30 pointer-events-none" />
+
         {/* Social Icons */}
-        <div className="flex gap-6 text-2xl">
-          <a
-            href="https://github.com/surajit-tunga"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-zinc-800 p-3 rounded-full shadow hover:shadow-blue-500/30 transition-all duration-300 hover:text-blue-400 hover:scale-110 hover:-rotate-2"
-            aria-label="GitHub"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/surajittunga"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-zinc-800 p-3 rounded-full shadow hover:shadow-blue-500/30 transition-all duration-300 hover:text-blue-400 hover:scale-110 hover:-rotate-2"
-            aria-label="LinkedIn"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="mailto:surajittunga2005@gmail.com"
-            className="group bg-zinc-800 p-3 rounded-full shadow hover:shadow-blue-500/30 transition-all duration-300 hover:text-blue-400 hover:scale-110 hover:-rotate-2"
-            aria-label="Email"
-          >
-            <FaEnvelope />
-          </a>
+        <div className="flex gap-5 text-xl lg:text-2xl justify-center lg:justify-start">
+          {[
+            {
+              href: "https://github.com/surajit-tunga",
+              icon: <FaGithub />,
+              label: "GitHub",
+            },
+            {
+              href: "https://www.linkedin.com/in/surajittunga",
+              icon: <FaLinkedin />,
+              label: "LinkedIn",
+            },
+            {
+              href: "mailto:surajittunga2005@gmail.com",
+              icon: <FaEnvelope />,
+              label: "Email",
+            },
+          ].map(({ href, icon, label }, index) => (
+            <a
+              key={index}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={label}
+              className="group bg-zinc-800/80 p-3 rounded-full transition-all duration-300 shadow hover:shadow-blue-500/40 hover:text-blue-400 hover:scale-110 hover:-rotate-2"
+            >
+              {icon}
+            </a>
+          ))}
         </div>
 
         {/* Footer Text */}
-        <div className="text-center lg:text-right text-sm text-gray-400 leading-relaxed">
+        <div className="text-sm text-gray-300 leading-relaxed">
           <p>
             Made with <span className="text-red-500">❤️</span> by{" "}
-            <span className="text-blue-500 font-semibold">Surajit Tunga</span>
+            <span className="text-blue-400 font-semibold">Surajit</span>
           </p>
-          <p className="text-xs text-gray-500 mt-1">
-            © {new Date().getFullYear()} All rights reserved.
+          <p className="text-xs text-gray-500 mt-1 lg:mt-0">
+            © {currentYear} All rights reserved.
           </p>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
