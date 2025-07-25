@@ -133,7 +133,7 @@ export const projects = [
     ]
   },
   {
-    name: "Tic tac toe",
+    name: "Tic Tac Toe",
     description: "A simple tic-tac-toe game built with JS.",
     link: "https://surajit-tunga.github.io/Tic-Tac-toe/",
     techStack: [
