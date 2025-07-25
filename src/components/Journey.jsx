@@ -21,7 +21,7 @@ const Journey = () => {
             <div className="lg:w-[320px] flex flex-col items-start pl-2 lg:pl-0 h-full">
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-5 h-5 rounded-full bg-gradient-to-br from-blue-500 to-purple-700 border-4 border-black shadow-md mt-1"></div>
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-blue-600">
+                <h3 className="text-lg sm:text-xl font-bold lg:text-2xl  text-blue-600">
                   {event.eventName}
                 </h3>
               </div>
