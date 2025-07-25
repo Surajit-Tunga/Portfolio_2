@@ -1,14 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { journeyData } from "../constants/index";
-import AOS from "aos";
-
-import "aos/dist/aos.css";
 
 const Journey = () => {
-  useEffect(() => {
-    AOS.init({ duration: 800, once: true });
-  }, []);
-
   return (
     <section className="w-full pt-16 px-4 sm:px-10 text-white relative">
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10 text-white">
@@ -22,7 +15,6 @@ const Journey = () => {
         {journeyData.map((event, index) => (
           <div
             key={index}
-            data-aos="fade-up"
             className="flex flex-col lg:flex-row lg:items-stretch lg:justify-center lg:gap-6"
           >
             {/* Left Column */}
@@ -73,7 +65,8 @@ const Journey = () => {
           </div>
         ))}
       </div>
-           <style jsx>{`
+
+      <style jsx>{`
         .scrollbar-hide {
           -ms-overflow-style: none;
           scrollbar-width: none;
