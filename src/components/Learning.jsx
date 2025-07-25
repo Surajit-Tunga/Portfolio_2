@@ -4,8 +4,29 @@ import "../style/scroll.css";
 
 const Learning = () => {
   const containerRef = useRef(null);
+  const cardRefs = useRef([]);
   const [activeIndex, setActiveIndex] = useState(null);
 
+  // Scroll to the first ongoing item on mount
+  useEffect(() => {
+    const indexToScroll = learningPath.findIndex(
+      (item) => item.status === "Ongoing"
+    );
+    if (indexToScroll !== -1 && cardRefs.current[indexToScroll]) {
+      const container = containerRef.current;
+      const card = cardRefs.current[indexToScroll];
+
+      const containerCenter = container.offsetWidth / 2;
+      const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+
+      container.scrollTo({
+        left: cardCenter - containerCenter,
+        behavior: "smooth",
+      });
+    }
+  }, []);
+
+  // Handle active card on scroll
   useEffect(() => {
     const container = containerRef.current;
 
@@ -50,6 +71,7 @@ const Learning = () => {
         {learningPath.map((course, index) => (
           <a
             key={index}
+            ref={(el) => (cardRefs.current[index] = el)}
             href={course.link}
             target="_blank"
             rel="noopener noreferrer"
@@ -65,13 +87,26 @@ const Learning = () => {
                 className="w-full h-full object-cover block"
               />
             </div>
-            <div className="p-3 h-1/2 flex flex-col justify-center">
-              <h3 className="text-lg font-semibold leading-snug">
-                {course.title}
-              </h3>
-              <p className="text-sm mt-2 font-medium text-blue-600">
-                {course.channel}
-              </p>
+            <div className="p-3 h-1/2 flex flex-col justify-between">
+              <div>
+                <h3 className="text-lg font-semibold leading-snug">
+                  {course.title}
+                </h3>
+                <p className="text-sm mt-1 font-medium text-blue-600">
+                  {course.channel}
+                </p>
+              </div>
+              <span
+                className={`text-xs font-semibold mt-2 w-fit px-2 py-1 rounded-full ${
+                  course.status === "Completed"
+                    ? "bg-green-600 text-white"
+                    : course.status === "Ongoing"
+                    ? "bg-yellow-500 text-black"
+                    : "bg-gray-600 text-white"
+                }`}
+              >
+                {course.status}
+              </span>
             </div>
           </a>
         ))}

@@ -22,92 +22,117 @@ export const learningPath = [
     channel: "Apna College",
     link: "https://youtu.be/HcOc7P5BMi4?si=lf-TJYeVaclgr9XC",
     image: "https://img.youtube.com/vi/HcOc7P5BMi4/0.jpg",
+    status: "Completed",
   },
   {
     title: "CSS",
     channel: "Apna College",
     link: "https://youtu.be/ESnrn1kAD4E?si=IGScvumb_45Xmkvd",
     image: "https://img.youtube.com/vi/ESnrn1kAD4E/0.jpg",
+    status: "Completed",
   },
   {
     title: "JavaScript",
     channel: "Apna College",
     link: "https://youtu.be/VlPiVmYuoqw?si=2J9xQc9AgSYp99dm",
     image: "https://img.youtube.com/vi/VlPiVmYuoqw/0.jpg",
+    status: "Completed",
   },
   {
     title: "Git and GitHub",
     channel: "Apna College",
     link: "https://youtu.be/Ez8F0nW6S-w?si=F2OgywqzOR9rUiMv",
     image: "https://img.youtube.com/vi/Ez8F0nW6S-w/0.jpg",
+    status: "Completed",
   },
   {
     title: "Python",
     channel: "Apna College",
     link: "https://youtu.be/vLqTf2b6GZw?si=2iCV4D4tD5aCgavD",
     image: "https://img.youtube.com/vi/vLqTf2b6GZw/0.jpg",
+    status: "Completed",
   },
   {
     title: "Django",
     channel: "Code With Harry",
     link: "https://youtu.be/JxzZxdht-XY?si=L2AoP3OGcGTgB2BO",
     image: "https://img.youtube.com/vi/JxzZxdht-XY/0.jpg",
+    status: "Completed",
   },
   {
     title: "React Basics",
     channel: "Code With Harry",
     link: "https://youtu.be/RGKi6LSPDLU?si=CsZyDCYwP0DytlRI",
     image: "https://img.youtube.com/vi/RGKi6LSPDLU/0.jpg",
+    status: "Completed",
   },
   {
     title: "Tailwind CSS",
     channel: "Code With Harry",
     link: "https://youtu.be/-g969furGik?si=opk04RosBV3FVaaj",
     image: "https://img.youtube.com/vi/-g969furGik/0.jpg",
+    status: "Completed",
   },
   {
     title: "JavaScript Crash Course",
     channel: "Complete Coading by Prashant Sir",
     link: "https://youtu.be/_eHc5K0zAPw?si=m1Y_GJGuvQNLvvOg",
     image: "https://img.youtube.com/vi/_eHc5K0zAPw/0.jpg",
+    status: "Completed",
   },
   {
     title: "Complete Backend Part 1",
     channel: "Complete Coading by Prashant Sir",
     link: "https://youtu.be/gxHXPmePnvo?si=q3hcvji9KLbu8pvj",
     image: "https://img.youtube.com/vi/gxHXPmePnvo/0.jpg",
+    status: "Completed",
   },
   {
     title: "Complete Backend Part 2",
     channel: "Complete Coading by Prashant Sir",
     link: "https://youtu.be/QCpgCMjGRiE?si=asVcGASdtXmy2wwa",
     image: "https://img.youtube.com/vi/QCpgCMjGRiE/0.jpg",
+    status: "Ongoing",
+  },
+  {
+    title: "Ultimate Python Course",
+    channel: "Code With Harry",
+    link: "https://youtu.be/UrsmFxEIp5k?si=30KRF_LO54pZ1rmj",
+    image: "https://img.youtube.com/vi/UrsmFxEIp5k/0.jpg",
+    status: "Queued",
+  },
+  
+  {
+    title: "Generative AI",
+    channel: "FreeCodeCamp",
+    link: "https://youtu.be/F0GQ0l2NfHA?si=-qRdwkl6jD8kIGX1",
+    image: "https://img.youtube.com/vi/F0GQ0l2NfHA/0.jpg",
+    status: "Queued",
   },
   {
     title: "JAVA Part 1",
     channel: "Complete Coading by Prashant Sir",
     link: "https://youtu.be/PymbRTMb4hY?si=oRYEwFgKWuQeB8ur",
     image: "https://img.youtube.com/vi/PymbRTMb4hY/0.jpg",
+    status: "Queued",
   },
   {
     title: "JAVA Part 2",
     channel: "Complete Coading by Prashant Sir",
     link: "https://youtu.be/nNLqygSI-rE?si=yoSn3dLg2S5ClkpP",
     image: "https://img.youtube.com/vi/nNLqygSI-rE/0.jpg",
+    status: "Queued",
   },
   {
     title: "JAVA Part 3",
     channel: "Complete Coading by Prashant Sir",
     link: "https://youtu.be/zMNBGVWGzmM?si=TY24VN7pSvkb7dO0",
     image: "https://img.youtube.com/vi/zMNBGVWGzmM/0.jpg",
-  },
-  {
-    title: "Generative AI",
-    channel: "FreeCodeCamp",
-    link: "https://youtu.be/F0GQ0l2NfHA?si=-qRdwkl6jD8kIGX1",
-    image: "https://img.youtube.com/vi/F0GQ0l2NfHA/0.jpg",
+    status: "Queued",
   },
 ];
+
+
 
 export const projects = [
   {
