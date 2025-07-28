@@ -95,10 +95,10 @@ export const learningPath = [
     status: "Ongoing",
   },
   {
-    title: "Ultimate Python Course",
-    channel: "Code With Harry",
-    link: "https://youtu.be/UrsmFxEIp5k?si=30KRF_LO54pZ1rmj",
-    image: "https://img.youtube.com/vi/UrsmFxEIp5k/0.jpg",
+    title: "Python",
+    channel: "Programming With Mosh",
+    link: "https://youtu.be/_uQrJ0TkZlc?si=h-qd20p_Ghske0X7",
+    image: "https://img.youtube.com/vi/_uQrJ0TkZlc/0.jpg",
     status: "Queued",
   },
   
