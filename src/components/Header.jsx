@@ -39,9 +39,9 @@ const Header = () => {
             <p className="text-4xl md:text-5xl font-extrabold text-white leading-tight drop-shadow-lg">
               Hello, I'm Surajit
             </p>
-            <p className="text-2xl font-semibold text-blue-200 drop-shadow-md">
-              Full Stack Developer | Exploring ML & GenAI
-            </p>
+            <p className="text-2xl font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent drop-shadow-md">
+              MERN Stack Developer | Exploring ML & GenAI
+           </p>
             <p className="text-lg text-white">
               Passionate about building innovative web applications and exploring the frontiers of machine learning and generative AI. </p>
             <a
