@@ -101,23 +101,45 @@ export const learningPath = [
     channel: "Complete Coading by Prashant Sir",
     link: "https://youtu.be/QCpgCMjGRiE?si=asVcGASdtXmy2wwa",
     image: "https://img.youtube.com/vi/QCpgCMjGRiE/0.jpg",
-    status: "Ongoing",
+    status: "Completed",
   },
   {
     title: "Python",
     channel: "Programming With Mosh",
     link: "https://youtu.be/_uQrJ0TkZlc?si=h-qd20p_Ghske0X7",
     image: "https://img.youtube.com/vi/_uQrJ0TkZlc/0.jpg",
-    status: "Queued",
+    status: "Ongoing",
   },
   
-  {
-    title: "Generative AI",
-    channel: "FreeCodeCamp",
-    link: "https://youtu.be/F0GQ0l2NfHA?si=-qRdwkl6jD8kIGX1",
-    image: "https://img.youtube.com/vi/F0GQ0l2NfHA/0.jpg",
+{
+    title: "Langchain for Beginners",
+    channel: "Code With Harry",
+    link: "https://youtu.be/cQUUkZnyoD0?si=anEEbc5ddiU3Tpd2",
+    image: "https://img.youtube.com/vi/cQUUkZnyoD0/0.jpg",
     status: "Queued",
   },
+  {
+    title: "LangGraph",
+    channel: "freeCodeCamp.org",
+    link: "https://youtu.be/jGg_1h0qzaM?si=EWVUmZvmGdOpFrpd",
+    image: "https://img.youtube.com/vi/jGg_1h0qzaM/0.jpg",
+    status: "Queued",
+  },
+  {
+    title: "Vector Database",
+    channel: "DSwithBappy",
+    link: "https://youtu.be/8KrTO9bS91s?si=XZa-jquR8aQuECVE",
+    image: "https://img.youtube.com/vi/8KrTO9bS91s/0.jpg",
+    status: "Queued",
+  },
+  {
+    title: "RAG (Retrieval-Augmented Generation)",
+    channel: "freeCodeCamp.org",
+    link: "https://youtu.be/sVcwVQRHIc8?si=wTfqZ01Fbb2IXAcN",
+    image: "https://img.youtube.com/vi/sVcwVQRHIc8/0.jpg",
+    status: "Queued",
+  },
+
   {
     title: "JAVA Part 1",
     channel: "Complete Coading by Prashant Sir",
