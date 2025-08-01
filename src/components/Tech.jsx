@@ -11,7 +11,6 @@ const Tech = () => {
         Explored by Me
       </h2>
 
-      {/* Loop through each category */}
       {Object.entries(techStack).map(([categoryName, technologies], idx) => (
         <div key={idx} className="mb-12 px-4 max-w-6xl mx-auto">
           <h3 className="text-xl font-semibold mb-6 capitalize text-blue-600 text-center">
@@ -22,7 +21,7 @@ const Tech = () => {
             {technologies.map((tech, index) => (
               <div
                 key={index}
-                className="w-24 h-24 flex flex-col items-center justify-center bg-zinc-900 rounded-lg shadow-[3px_3px_6px_rgba(96,165,250,0.2)] hover:shadow-[3px_3px_12px_rgba(96,165,250,0.4)] transition-transform duration-300 hover:scale-105"
+                className="w-24 h-24 flex flex-col items-center justify-center border border-blue-800 rounded-xl backdrop-blur-sm bg-transparent text-white transition-all duration-300 hover:scale-105 shadow-[0_0_8px_0_rgba(30,58,138,0.6)] hover:shadow-[0_0_15px_0_rgba(59,130,246,0.8)]"
                 title={tech.name}
               >
                 <img
@@ -30,7 +29,7 @@ const Tech = () => {
                   alt={tech.name}
                   className="w-10 h-10 object-contain mb-2"
                 />
-                <p className="text-xs font-medium text-center text-white break-words w-20 leading-tight">
+                <p className="text-xs font-medium text-center break-words w-20 leading-tight">
                   {tech.name}
                 </p>
               </div>
